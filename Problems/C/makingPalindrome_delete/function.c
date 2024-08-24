@@ -3,6 +3,7 @@
 #include <stdlib.h>
 #include "function.h"
 
+// 풀라다가 복잡해서 GPT가 짜줌 확인 해야함
 // DP 기반 회문 생성 함수 - 추가 없이 오직 제거만 수행
 int makingPalindrome(const char* s, char* result) {
     int n = strlen(s);
