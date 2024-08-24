@@ -4,7 +4,7 @@
 typedef struct LLNode {
     int val;
     struct LLNode *prv, *nxt;
-} LLNode; //µÚ¿¡ ºÙ¿©¼­typedef¸¦ °£´ÜÇÏ°Ô ÇÑ°Í
+} LLNode; //ë’¤ì— ë¶™ì—¬ì„œtypedefë¥¼ ê°„ë‹¨í•˜ê²Œ í•œê²ƒ
 
 void print_linked_list (LLNode *head) {
     LLNode *cur = head;
@@ -15,8 +15,8 @@ void print_linked_list (LLNode *head) {
     printf("\n");
 }
 
-//(a) doubly linked listÀÇ head¸¦ ¹Ş¾Æ ¿À¸§Â÷¼øÀ¸·Î Á¤·Ä
-//value¸¸ Ä¡È¯ÇØµµ µÇ³ª? value¸¦ swap ÇØ°¡¸ç Á¤·Ä
+//(a) doubly linked listì˜ headë¥¼ ë°›ì•„ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬
+//valueë§Œ ì¹˜í™˜í•´ë„ ë˜ë‚˜? valueë¥¼ swap í•´ê°€ë©° ì •ë ¬
 void sort_list (LLNode *head){
     LLNode *cur = head;
     while (cur){
@@ -35,17 +35,17 @@ void sort_list (LLNode *head){
     }
 }
 
-//(b) ¿©·¯ °³ÀÇ DLLÀ» ÀÔ·Â¹Ş¾Æ ¿À¸§Â÷¼øÀ¸·Î Á¤·Ä
+//(b) ì—¬ëŸ¬ ê°œì˜ DLLì„ ì…ë ¥ë°›ì•„ ì˜¤ë¦„ì°¨ìˆœìœ¼ë¡œ ì •ë ¬
 void sort_each_list (LLNode *head[100], int N){
     for (int i = 0; i < N; i++){
-        sort_list(head[i]);  //head[i] ÀÚÃ¼°¡ pointer
+        sort_list(head[i]);  //head[i] ìì²´ê°€ pointer
     }
 }
-//¸¸¾à ¹è¿­ ÀüÃ¼ÀÇ ±æÀÌ¸¦ ±¸ÇÏ°í ½Í´Ù¸é  int length = sizeof(head) / sizeof(head[0]); ¿Í °°ÀÌ size¸¦ ÀÌ¿ëÇØ¼­ ±¸ÇÒ ¼ö ÀÖ´Ù.
+//ë§Œì•½ ë°°ì—´ ì „ì²´ì˜ ê¸¸ì´ë¥¼ êµ¬í•˜ê³  ì‹¶ë‹¤ë©´  int length = sizeof(head) / sizeof(head[0]); ì™€ ê°™ì´ sizeë¥¼ ì´ìš©í•´ì„œ êµ¬í•  ìˆ˜ ìˆë‹¤.
 
 
-//(c) ¿©·¯ °³ÀÇ DLLÀ» ÀÔ·Â¹Ş¾Æ ³»¸²Â÷¼øÀ¸·Î Á¤·ÄµÈ ÇÏ³ªÀÇ DLLÀ» ¸¸µç´Ù.
-//³»¸²Â÷¼ø Á¤·Ä¿ë ÇÔ¼ö
+//(c) ì—¬ëŸ¬ ê°œì˜ DLLì„ ì…ë ¥ë°›ì•„ ë‚´ë¦¼ì°¨ìˆœìœ¼ë¡œ ì •ë ¬ëœ í•˜ë‚˜ì˜ DLLì„ ë§Œë“ ë‹¤.
+//ë‚´ë¦¼ì°¨ìˆœ ì •ë ¬ìš© í•¨ìˆ˜
 void decrease_sort_list (LLNode *head){
     LLNode *cur = head;
     while (cur){
@@ -65,7 +65,7 @@ void decrease_sort_list (LLNode *head){
 }
 
 LLNode* merge_sorted_lists(LLNode *head[100], int N){
-    for (int i = 0; i < N-1; i++){ //ÀüºÎ ¿¬°áÇØ¼­ ÇÏ³ª·Î ¸¸µé°í ÀüÃ¼ sort
+    for (int i = 0; i < N-1; i++){ //ì „ë¶€ ì—°ê²°í•´ì„œ í•˜ë‚˜ë¡œ ë§Œë“¤ê³  ì „ì²´ sort
         
         LLNode *cur = head[i];
         while (cur -> nxt){
