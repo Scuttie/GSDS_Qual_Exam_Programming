@@ -1,5 +1,9 @@
 {
     "files.associations": {
-        "strings.h": "c"
+        "strings.h": "c",
+        "cmath": "cpp",
+        "typeinfo": "cpp",
+        "new": "cpp",
+        "iostream": "cpp"
     }
 }
