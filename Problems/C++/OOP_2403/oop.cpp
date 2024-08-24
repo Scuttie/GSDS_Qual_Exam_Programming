@@ -30,8 +30,15 @@ class Dog : public Animal{
         Dog() {}
         virtual ~Dog() {}
 
-        virtual string get_name() const { return "Dog"; }
-        virtual int get_weight() const { return 10; }
+        string get_name() const override { return "Dog"; }
+        int get_weight() const override { return 10; }
+        // 둘다 됨
+        //virtual string get_name() const { return "Dog"; }
+        //virtual int get_weight() const { return 10; }
+
+        //이건 안됨
+        //string get_name() const { return "Dog"; }
+        //int get_weight() const { return 10; }
 };
 
 class Pug : public Dog{
