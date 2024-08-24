@@ -2,7 +2,7 @@
 #include <cstdio>
 #include <string>
 #include <cmath>
-// 상속 / virtual 함수 및 제거 / pointer / static 변수(instance 수 세기)
+// 상속 / virtual 함수 및 제거 / base pointer 사용 / static 변수(instance 수 세기)
 //g++ -o oop oop.cpp
 using namespace std;
 
