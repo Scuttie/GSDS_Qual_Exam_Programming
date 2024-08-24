@@ -4,3 +4,4 @@
 | palindrome   | palindrome    | 23-논자시 관련     | [김기훈]      |
 | makingPalindorme_range   | 문자열 중 회문 찾기    | 23-논자시 관련     | [김기훈]      |
 | makingPalindrome_delete   | 문자열 조합 중 회문 찾기    | 23-논자시 관련     | [김기훈]      |
+| doubly_linked_list.c    | doubly linked list    | 24-03 논자시 기출    | [박형진]      |
