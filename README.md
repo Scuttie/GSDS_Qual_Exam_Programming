@@ -1,9 +1,17 @@
 # GSDS_Qual_Exam_Coding
 
-This repo contains resources for GSDS Graduation Qualification Exam.
+Welcome to the **GSDS Graduation Qualification Exam** coding resources repository. This repository is designed to provide a comprehensive set of resources, including coding examples and problems in various programming languages, to help you prepare for your GSDS qualification exam.
 
-## Python
+## Table of Contents
 
-## C
+- [File Structure](#file-structure)
+- [Python](#python)
+- [C](#c)
+- [C++](#c-1)
+- [Problems](#problems)
+  - [Python Problems](#python-problems)
+  - [C Problems](#c-problems)
+  - [C++ Problems](#c-problems-1)
 
-## C++
+## File Structure
+
