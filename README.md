@@ -14,5 +14,12 @@ Welcome to the **GSDS Graduation Qualification Exam** coding resources repositor
   - [C++ Problems](#c-problems-1)
 
 ## File Structure
-
-GSDS_Qual_Exam_Coding/ ├── Python/ ├── C/ ├── C++/ └── Problems/ ├── Python/ ├── C/ └── C++/
+```plaintext
+GSDS_Qual_Exam_Coding/
+├── Python/
+├── C/
+├── C++/
+└── Problems/
+    ├── Python/
+    ├── C/
+    └── C++
