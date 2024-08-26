@@ -9,9 +9,6 @@ This repo contains resources for **GSDS Graduation Qualification Exam**.
 - [C](#c)
 - [C++](#c-1)
 - [Problems](#problems)
-  - [Python Problems](#python-problems)
-  - [C Problems](#c-problems)
-  - [C++ Problems](#c-problems-1)
 
 ## File Structure
 ```plaintext
@@ -79,12 +76,7 @@ C++ 디렉토리에는, 컴퓨팅1 수업에서 다뤘던 주요 개념, 구문,
 
 ## Problems
 
-The Problems directory is divided by programming language:
-
-### Python Problems
-
-Contains a collection of Python coding problems that are designed to challenge your understanding of the language and improve your problem-solving skills.
-
-### C Problems
-
-Here you will find problems specifically focused on the C language. These exercises range from basic to advanced, helping you to practice and refine your C programming abilities
+Problems 디렉토리에는, 기존 디렉토리의 기본 개념을 다루는 것에서 더 나아가, GSDS에서 다뤄졌던 문제에 대한 풀이가 정리되어 있습니다. 내부 README에서 자세한 설명을 볼 수 있습니다.
+- Python Problems
+- C Problems
+- C++ Problems
