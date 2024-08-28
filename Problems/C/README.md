@@ -7,3 +7,4 @@
 | doubly_linked_list.c    | doubly linked list    | 24-03 논자시 기출    | [박형진]      |
 | merge_linked_lists.c    | Linked List    | 24-여름 부트캠프 과제     | [염제원]      |
 | reverse_linked_list.c    | Linked List    | 24-여름 부트캠프 과제     | [염제원]      |
+| divide_linked_list.c    | Linked List    | 23-겨울 부트캠프 기출     | [장이준]      |
