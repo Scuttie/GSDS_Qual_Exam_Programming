@@ -8,3 +8,5 @@
 | merge_linked_lists.c    | Linked List    | 24-여름 부트캠프 과제     | [염제원]      |
 | reverse_linked_list.c    | Linked List    | 24-여름 부트캠프 과제     | [염제원]      |
 | divide_linked_list.c    | Linked List    | 23-겨울 부트캠프 기출     | [장이준]      |
+| LLPalinrome    | Linked List & Palindrome   | Leetcode 234    | [진현빈]      |
+
