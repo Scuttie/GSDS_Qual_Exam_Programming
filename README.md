@@ -60,6 +60,7 @@ C++ 디렉토리에는, 컴퓨팅1 수업에서 다뤘던 주요 개념, 구문,
 - list_map_set: List, Map, Set 개념과 구문 정리
 - streams: Streams 개념, 구문 정리
 - string: String 개념, 구문, 관련 함수 정리
+- string_split: C++에서 String Split 구현 함수 정리
 - vector: Vector 개념, 구문, 관련 함수 정리
 - heap: Heap 개념과 구현 정리
 - rd_bree: Red-Black Tree 개념과 구현 정리
