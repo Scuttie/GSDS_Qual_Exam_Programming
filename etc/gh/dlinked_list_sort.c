@@ -83,6 +83,54 @@ LLNode* merge_sorted_lists(LLNode *head[], int num){
         } else {
             new_tail->nxt = current[min_index];
             current[min_index]->prv = new_tail;
+            new_tail = new_tail->nxt; // 이게 cur의 역할을 하는 것
+        }
+
+        // 선택된 리스트의 포인터를 다음 노드로 이동
+        current[min_index] = current[min_index]->nxt;
+    }
+
+    // 모든 리스트 병합 후, 마지막 노드의 nxt를 NULL로 설정
+    if (new_tail != NULL) {
+        new_tail->nxt = NULL;
+    }
+
+    return new_head;
+}
+
+
+LLNode* merge_sorted_lists2(LLNode *head[], int num) {
+    LLNode *current[100];
+    for (int i = 0; i < num; i++) {
+        current[i] = head[i];
+    }
+
+    LLNode *new_head = NULL;
+    LLNode *new_tail = NULL;
+
+    while (1) {
+        // 현재 노드들 중 가장 작은 값을 찾음
+        int min_index = -1;
+        for (int i = 0; i < num; i++) {
+            if (current[i] != NULL) {
+                if (min_index == -1 || current[i]->val < current[min_index]->val) {
+                    min_index = i;
+                }
+            }
+        }
+
+        // 더 이상 노드가 남아있지 않으면 종료
+        if (min_index == -1) {
+            break;
+        }
+
+        // current[min_index]를 병합된 리스트의 맨 뒤에 추가
+        if (new_head == NULL) {
+            new_head = current[min_index];
+            new_tail = current[min_index];
+        } else {
+            new_tail->nxt = current[min_index];
+            current[min_index]->prv = new_tail;
             new_tail = new_tail->nxt;
         }
 
@@ -97,6 +145,9 @@ LLNode* merge_sorted_lists(LLNode *head[], int num){
 
     return new_head;
 }
+
+
+
 
 int main () {
     LLNode *node11 = (LLNode *) malloc(sizeof(LLNode));
@@ -139,7 +190,7 @@ int main () {
     print_linked_list(list1);
     print_linked_list(list2);
     print_linked_list(list3);
-    //LLNode *merged = merge_sorted_lists(lists, 3);
-    //print_linked_list(merged);
+    LLNode *merged = merge_sorted_lists2(lists, 3);
+    print_linked_list(merged);
     return 0;
 }
