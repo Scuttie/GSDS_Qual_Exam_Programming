@@ -15,3 +15,5 @@ result_lcm = lcm(num1, num2)
 
 print(f"최대공약수(GCD): {result_gcd}")
 print(f"최소공배수(LCM): {result_lcm}")
+
+

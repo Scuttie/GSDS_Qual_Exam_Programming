@@ -17,4 +17,5 @@
 | three_consecutive_odds.c   |  주어진 배열이 연속된 3개의 홀수를 갖는지 확인 |  LeetCode 1550   |  [양서윤]    |
 | critical_points_linked_list.c  |  Linked List, Critical Points |  LeetCode 2058 응용   |  [염제원]    |
 | merge_nodes_between_zeros.c  |  Linked List |  LeetCode 2181   |  [양서윤]    |
+| palindrome_partiton.cpp | dynamic programming | cpp형진이꺼 | [김기훈]|
 
