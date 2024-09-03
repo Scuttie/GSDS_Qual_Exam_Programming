@@ -10,3 +10,4 @@
 | reverse_substrings.py   | Stack, Reverse Substrings  | LeetCode 1190 | [양서윤]   |
 | water_bottle.py   | Algorithm  | LeetCode 1518 | [양서윤]   |
 | max_score_removing_substrings.py   | Stack, Recursion | LeetCode 1717 | [양서윤]   |
+| Josephus_Problem.py   | Josephus Problem | LeetCode 1823 | [양서윤]   |
