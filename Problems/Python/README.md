@@ -9,3 +9,4 @@
 | delete_nodes_return_forest.py   | BFS, Binary Tree Deletion  | LeetCode 1110 | [양서윤]   |
 | reverse_substrings.py   | Stack, Reverse Substrings  | LeetCode 1190 | [양서윤]   |
 | water_bottle.py   | Algorithm  | LeetCode 1518 | [양서윤]   |
+| max_score_removing_substrings.py   | Stack, Recursion | LeetCode 1717 | [양서윤]   |
