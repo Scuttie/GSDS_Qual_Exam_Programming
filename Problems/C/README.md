@@ -9,6 +9,6 @@
 | reverse_linked_list.c    | Linked List    | 24-여름 부트캠프 과제     | [염제원]      |
 | divide_linked_list.c    | Linked List    | 23-겨울 부트캠프 기출     | [장이준]      |
 | LLPalinrome    | Linked List & Palindrome   | Leetcode 234    | [진현빈]      |
-| 24-1 Bootcamp Final    | 이진수, Switch, 겹치는 직사각형 넓이, structure, Reverse Linked List, Unique String | 24-여름 부트캠프 기출  | [염제원]      |
+| 24-1 Bootcamp Final    | 이진수, Switch, structure, Reverse Linked List, Unique String 등 | 24-여름 부트캠프 기출  | [염제원]      |
 
 
