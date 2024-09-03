@@ -15,3 +15,4 @@
 | intersection_of_int_arrays.c   |  두 int array의 교집합을 출력   |  LeetCode 350   |  [양서윤]    |
 | union_of_int_arrays.c   |  두 int array의 합집합을 출력   |  LeetCode 350 응용   |  [염제원]    |
 | three_consecutive_odds.c   |  주어진 배열이 연속된 3개의 홀수를 갖는지 확인 |  LeetCode 1550   |  [양서윤]    |
+| critical_points_linked_list.c  |  Linked List, Critical Points |  LeetCode 2058 응용   |  [염제원]    |
