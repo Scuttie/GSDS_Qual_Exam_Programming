@@ -12,4 +12,4 @@
 | max_score_removing_substrings.py   | Stack, Recursion | LeetCode 1717 | [양서윤]   |
 | josephus_problem.py   | Josephus Problem | LeetCode 1823 | [양서윤]   |
 | binary_tree_shortest_path.py   | BFS | LeetCode 2096 | [양서윤]   |
-
+| BT_from_desc.py   | Binary Tree | LeetCode 2196 | [양서윤]   |
