@@ -6,3 +6,5 @@
 | OOP_CFDS_23_1 | abstract class | 23-2 CFDS 과제 | [진현빈]|
 | OOP_CFDS_23_2 | abstract class | 23-2 CFDS 과제 | [진현빈]|
 | longest_word.cpp | string | 24-1 CFDS 기출 | [염제원]|
+| QE_prob3.cpp | class basics | 24-1 논자시 연습문제 | [염제원]|
+
