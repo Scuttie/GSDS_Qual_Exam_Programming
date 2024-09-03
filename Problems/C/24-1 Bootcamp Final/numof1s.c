@@ -7,6 +7,7 @@
 int numOf1s(int n){
     /*Write your code here*/
     int count = 0;
+    //계속 2로 나누면서 나머지 1 생길때마다 count 1씩 증가시키면 됩니다.
     while (n > 0) {
         if (n % 2 == 1) {
             count++;
