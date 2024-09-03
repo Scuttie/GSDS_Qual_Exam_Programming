@@ -11,4 +11,4 @@
 | LLPalinrome    | Linked List & Palindrome   | Leetcode 234    | [진현빈]      |
 | 24-1 Bootcamp Final    | 이진수, Reverse Linked List, Unique String 등 | 24-여름 부트캠프 기출  | [염제원]      |
 | stdlib.h.txt, string.h.txt   |  헤더 파일 설명   |   23-09 논자시 관련   |  [박형진]    |
-| reverse_string.c   |  string   |  GSDS 스타일 문제 (창작)   |  [염제원]    |
+| reverse_string.c   |  주어진 문자열 뒤집어서 출력   |  GSDS 스타일 문제 (창작)   |  [염제원]    |
