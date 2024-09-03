@@ -52,15 +52,48 @@ void sort_each_list(LLNode *head_list[], int num){
 
 LLNode* merge_sorted_lists(LLNode *head[], int num){
 
-    LLNode *current[100] = 
-    //3개 비교하면서 linear하게 진행할 수 있음 O(n+m+k)
-    LLNode *new_head = (LLNode *) malloc(sizeof(LLNode));
+    LLNode *current[100];
+    for (int i = 0; i < num; i++) {
+        current[i] = head[i];
+    }
 
-    //n개의 변수를 둬야하는데 
+    LLNode *new_head = NULL;
+    LLNode *new_tail = NULL;
 
-    // 각 포인터를 비교
-    
-    // 가장 작은걸 놓고 그 리스트의 해더는 앞으로 진행
+    while (1) {
+        // 현재 노드들 중 가장 작은 값을 찾음
+        int min_index = -1;
+        for (int i = 0; i < num; i++) {
+            if (current[i] != NULL) {
+                if (min_index == -1 || current[i]->val < current[min_index]->val) {
+                    min_index = i;
+                }
+            }
+        }
+
+        // 더 이상 노드가 남아있지 않으면 종료
+        if (min_index == -1) {
+            break;
+        }
+
+        // 새로운 노드 생성 또는 연결
+        if (new_head == NULL) {
+            new_head = current[min_index];
+            new_tail = new_head;
+        } else {
+            new_tail->nxt = current[min_index];
+            current[min_index]->prv = new_tail;
+            new_tail = new_tail->nxt;
+        }
+
+        // 선택된 리스트의 포인터를 다음 노드로 이동
+        current[min_index] = current[min_index]->nxt;
+    }
+
+    // 모든 리스트 병합 후, 마지막 노드의 nxt를 NULL로 설정
+    if (new_tail != NULL) {
+        new_tail->nxt = NULL;
+    }
 
     return new_head;
 }
