@@ -44,6 +44,7 @@ C 디렉토리에는, CFDS C 수업에서 다뤘던 주요 개념에 대한 구�
 - pointers
 - singly_linked_list
 - structures
+- string_split: C에서 string split을 구현한 코드 정리
 
 ## C++
 
