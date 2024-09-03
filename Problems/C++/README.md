@@ -8,3 +8,4 @@
 | longest_word.cpp | string | 24-1 CFDS 기출 | [염제원]|
 | QE_prob3.cpp | class basics | 24-1 논자시 연습문제 | [염제원]|
 | coin_exchange.cpp | Dynamic Programming | LeetCode 322 | [염제원]|
+| palindrome_partiton.cpp | dynamic programming | Leetcode 132 | [박형진]|
