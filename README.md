@@ -9,6 +9,7 @@ This repo contains resources for **GSDS Graduation Qualification Exam**.
 - [C](#c)
 - [C++](#c-1)
 - [Problems](#problems)
+- [Textbooks](#textbooks)
 
 ## File Structure
 ```plaintext
@@ -80,3 +81,7 @@ Problems 디렉토리에는, 기존 디렉토리의 기본 개념을 다루는 �
 - Python Problems
 - C Problems
 - C++ Problems
+
+## Textbooks
+
+Textbooks 디렉토리에는, 코딩테스트에서 참조할 수 있는 Textbook이 수록되어 있습니다.
