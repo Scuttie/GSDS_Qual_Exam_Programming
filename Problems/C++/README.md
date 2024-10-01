@@ -10,3 +10,4 @@
 | coin_exchange.cpp | Dynamic Programming | LeetCode 322 | [염제원]|
 | palindrome_partiton.cpp | dynamic programming | Leetcode 132 | [박형진]|
 | word_break.cpp | dynamic programming | Leetcode 140 | [박형진]|
+| linked_list_overload_template.cpp | Linked List | 24-2 컴퓨팅실습 관련 | [염제원]|
