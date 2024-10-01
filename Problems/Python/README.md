@@ -13,3 +13,4 @@
 | josephus_problem.py   | Josephus Problem | LeetCode 1823 | [양서윤]   |
 | binary_tree_shortest_path.py   | BFS | LeetCode 2096 | [양서윤]   |
 | BT_from_desc.py   | Binary Tree | LeetCode 2196 | [양서윤]   |
+| permutations.py   | Recursion | LeetCode 46 | [염제원]   |
