@@ -11,6 +11,7 @@ This repo contains resources for **GSDS Graduation Qualification Exam**.
 - [Data Structure](#Data_Structure)
 - [Problems](#problems)
 - [Textbooks](#textbooks)
+- [etc](#etc)
 
 ## File Structure
 ```plaintext
@@ -23,6 +24,7 @@ GSDS_Qual_Exam_Coding/
     ├── Python/
     ├── C/
     └── C++
+└── etc/
 ```
 
 ## Python
@@ -92,3 +94,7 @@ Problems 디렉토리에는, 기존 디렉토리의 기본 개념을 다루는 �
 ## Textbooks
 
 Textbooks 디렉토리에는, 코딩테스트에서 참조할 수 있는 Textbook이 수록되어 있습니다.
+
+## etc
+
+etc 디렉토리에는, 그 외 기타 참조할 수 있는 자료들이 포함되어 있습니다.
