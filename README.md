@@ -8,6 +8,7 @@ This repo contains resources for **GSDS Graduation Qualification Exam**.
 - [Python](#python)
 - [C](#c)
 - [C++](#c-1)
+- [Data Structure](#Data Structure)
 - [Problems](#problems)
 - [Textbooks](#textbooks)
 
@@ -17,6 +18,7 @@ GSDS_Qual_Exam_Coding/
 ├── Python/
 ├── C/
 ├── C++/
+└── Data Structure/
 └── Problems/
     ├── Python/
     ├── C/
