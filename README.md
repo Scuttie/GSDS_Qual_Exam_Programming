@@ -78,6 +78,9 @@ C++ 디렉토리에는, 컴퓨팅1 수업에서 다뤘던 주요 개념, 구문,
 - Prims' Algorithm
 - Topological Sort
 
+## Data Structure
+
+Data Structure 디렉토리에는, 기본적인 Data Structure의 언어별 구현이 포함되어 있습니다.
 
 ## Problems
 
