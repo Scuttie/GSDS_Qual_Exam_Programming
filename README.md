@@ -9,7 +9,7 @@ This repo contains resources for **GSDS Graduation Qualification Exam**.
 - [C](#c)
 - [C++](#c-1)
 - [Data Structure](#data_structure)
-- [Algorithm](#algorithm)
+- [Algorithms](#algorithms)
 - [Problems](#problems)
 - [Textbooks](#textbooks)
 - [etc](#etc)
@@ -21,7 +21,7 @@ GSDS_Qual_Exam_Coding/
 ├── C/
 ├── C++/
 └── Data Structure/
-└── Algorithm/
+└── Algorithms/
 └── Problems/
     ├── Python/
     ├── C/
@@ -86,9 +86,9 @@ C++ 디렉토리에는, 컴퓨팅1 수업에서 다뤘던 주요 개념, 구문,
 
 Data_Structure 디렉토리에는, 기본적인 Data Structure의 언어별 구현이 포함되어 있습니다.
 
-## Algorithm
+## Algorithms
 
-Algorithm 디렉토리에는, 기본적인 Algorithm (Recursion 등)의 문제 풀이가 포함되어 있습니다.
+Algorithms 디렉토리에는, 기본적인 Algorithm (Recursion 등)의 문제 풀이가 포함되어 있습니다.
 
 ## Problems
 
