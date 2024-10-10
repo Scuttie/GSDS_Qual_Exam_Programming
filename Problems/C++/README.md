@@ -11,6 +11,9 @@
 | palindrome_partiton.cpp | dynamic programming | Leetcode 132 | [박형진]|
 | word_break.cpp | dynamic programming | Leetcode 140 | [박형진]|
 | linked_list_overload_template.cpp | Linked List | 24-2 컴퓨팅실습 관련 | [염제원]|
-| merge_two_lists.cpp | Linked List | Leetcode Linked Lists 21 | [염제원]|
+| merge_two_lists.cpp | Linked List | 24-2 컴퓨팅실습 관련 | [염제원]|
 | print_tower_of_hanoi.cpp | Tower of Hanoi | Baekjoon 11729 | [염제원]|
 | remove_linked_list_elements.cpp | Linked List | 24-2 컴퓨팅실습 관련 | [염제원]|
+| remove_duplicates_linked_list.cpp | Linked List | 24-2 컴퓨팅실습 관련 | [염제원]|
+| middle_linked_list.cpp | Linked List | 24-2 컴퓨팅실습 관련 | [염제원]|
+| add_1_2_3.cpp | Dynamic Programming | 24-2 컴퓨팅실습 관련 | [염제원]|
