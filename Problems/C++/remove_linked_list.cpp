@@ -22,7 +22,7 @@ public:
                 // 노드를 제거
                 ListNode* temp = current->next;
                 current->next = current->next->next;
-                deleteL temp;  // 메모리 해제
+                delete temp;  // 메모리 해제
             } else {
                 current = current->next;
             }
