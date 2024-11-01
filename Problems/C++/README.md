@@ -18,3 +18,4 @@
 | middle_linked_list.cpp | Linked List | 24-2 컴퓨팅실습 관련 | [염제원]|
 | add_1_2_3.cpp | Dynamic Programming | 24-2 컴퓨팅실습 관련 | [염제원]|
 | find_if_path_exists.cpp | Graph Traversal | 24-2 컴퓨팅실습 관련 | [염제원]|
+| is_bipartite.cpp | Biparitite Graph | 24-2 컴퓨팅실습 관련 | [염제원]|
