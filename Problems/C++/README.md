@@ -21,4 +21,4 @@
 | is_bipartite.cpp | Biparitite Graph | 24-2 컴퓨팅실습 관련 | [염제원]|
 | max_depth_n_ary_tree.cpp | N-Ary Tree Depth | 24-2 컴퓨팅실습 관련 | [염제원]|
 | max_profit.cpp | Dynamic Programming | 24-2 컴퓨팅실습 관련 | [염제원]|
-| kth_smallest_bst.cpp | Binary Search Tree | 24-2 컴퓨팅실습 관련 | [염제원]|
+| kth_smallest_bst.cpp | BST In-Order Traversal| 24-2 컴퓨팅실습 관련 | [염제원]|
