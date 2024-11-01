@@ -20,3 +20,4 @@
 | find_if_path_exists.cpp | Graph Traversal | 24-2 컴퓨팅실습 관련 | [염제원]|
 | is_bipartite.cpp | Biparitite Graph | 24-2 컴퓨팅실습 관련 | [염제원]|
 | max_depth_n_ary_tree.cpp | N-Ary Tree Depth | 24-2 컴퓨팅실습 관련 | [염제원]|
+| max_profit.cpp | Dynamic Programming | 24-2 컴퓨팅실습 관련 | [염제원]|
