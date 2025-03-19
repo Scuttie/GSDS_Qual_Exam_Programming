@@ -1,7 +1,3 @@
-Below is a **two-part problem** specification. In the first part, you must write a function to **read meeting times** from a file. In the second part, you must write a function to **calculate the minimum number of rooms** required and **assign meetings** to those rooms.
-
----
-
 ## **Problem 1: Read Meetings from File**
 
 ### **Function Signature**
