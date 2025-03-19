@@ -119,7 +119,3 @@ This shows that:
 ### **Hint**
 
 A common approach involves using a **min-heap (priority queue)** to keep track of meeting end times. When a new meeting starts, compare its start time to the earliest finishing meeting in the heap. This strategy is often used to achieve efficient scheduling and can help determine whether you can reuse a room or need a new one.
-
----
-
-**End of Problems**
